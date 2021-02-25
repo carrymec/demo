@@ -31,7 +31,8 @@ public class DemoApplication extends SpringBootServletInitializer {
     //打包发布配置重写 SpringApplicationBuilder
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(DemoApplication.class);//使用web.xml 启动程序，DemoApplication，启动springboot项目
+        return builder.sources(DemoApplication.class);
+        //使用web.xml 启动程序，DemoApplication，启动springboot项目
     }
 
     /**
